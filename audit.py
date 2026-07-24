@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.table import Table
 
 from utils import banner
-from checks import system_info
+from checks.system import system_info
 
 console = Console()
 

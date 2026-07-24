@@ -10,7 +10,7 @@ def system_info():
         "OS": platform.system(),
         "Release": platform.release(),
         "Machine": platform.machine(),
-        "Processor": platform.processor() or "Unknown"
+        "Processor": platform.processor() or "Unknown",
     }
 
     return {
@@ -19,5 +19,5 @@ def system_info():
         "score": 10,
         "issues": [],
         "recommendation": "",
-        "data": info
+        "data": info,
     }

@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Generated reports
+reports/*.html
+reports/*.json
+reports/*.pdf
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
