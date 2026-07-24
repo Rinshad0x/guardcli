@@ -1,0 +1,4 @@
+rich
+typer
+colorama
+psutil
