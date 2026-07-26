@@ -3,7 +3,7 @@ import socket
 import getpass
 
 
-def system_info():
+def run():
     info = {
         "Username": getpass.getuser(),
         "Hostname": socket.gethostname(),
@@ -14,10 +14,13 @@ def system_info():
     }
 
     return {
-        "name": "System Information",
+        "id": "SYS001",
+        "category": "Host",
+        "name" : "System Information",
+        "severity": "Info",
         "status": "PASS",
         "score": 10,
         "issues": [],
-        "recommendation": "",
+        "recommendation": "No action required",
         "data": info,
     }

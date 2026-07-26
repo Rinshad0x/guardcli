@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guardcli"
+version = "1.0.0"
+description = "Linux Personal OPSEC Audit Tool"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Rinshad0x"}
+]
+
+dependencies = [
+    "rich",
+    "psutil"
+]
+
+[project.scripts]
+guardcli = "guardcli.audit:main"
