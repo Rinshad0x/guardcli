@@ -14,8 +14,12 @@ authors = [
 
 dependencies = [
     "rich",
-    "psutil"
+    "psutil",
+    "jinja2"
 ]
 
 [project.scripts]
 guardcli = "guardcli.audit:main"
+
+[tool.setuptools.packages.find]
+include = ["guardcli*"]

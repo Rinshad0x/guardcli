@@ -1,0 +1,2 @@
+[console_scripts]
+guardcli = guardcli.audit:main

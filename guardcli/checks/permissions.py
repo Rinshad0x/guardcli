@@ -1,3 +1,12 @@
+"""
+GuardCLI - Linux Personal OPSEC Audit Tool
+Copyright (c) 2026 Rinshad0x
+
+Licensed under the MIT License.
+See LICENSE for details.
+"""
+
+
 from pathlib import Path
 import stat
 

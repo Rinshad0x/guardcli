@@ -1,3 +1,12 @@
+"""
+GuardCLI - Linux Personal OPSEC Audit Tool
+Copyright (c) 2026 Rinshad0x
+
+Licensed under the MIT License.
+See LICENSE for details.
+"""
+
+from .checks import ssh_config
 from .checks import world_writable
 from .checks import (
     system,
@@ -26,4 +35,5 @@ CHECKS = [
     ("SUID001", "SUID Binary Audit", suid.run),
     ("CRON001", "Cron Job Audit", cron.run),
     ("WW001", "World Writable File Audit", world_writable.run),
+    ("SSHD001", "SSH Configuration Audit", ssh_config.run),
 ]

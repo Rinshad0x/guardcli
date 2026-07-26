@@ -1,3 +1,12 @@
+"""
+GuardCLI - Linux Personal OPSEC Audit Tool
+Copyright (c) 2026 Rinshad0x
+
+Licensed under the MIT License.
+See LICENSE for details.
+"""
+
+
 from rich.table import Table
 from rich.console import Console
 from rich.panel import Panel

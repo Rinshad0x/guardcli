@@ -1,3 +1,16 @@
+Metadata-Version: 2.4
+Name: guardcli
+Version: 1.0.0
+Summary: Linux Personal OPSEC Audit Tool
+Author: Rinshad0x
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+Requires-Dist: psutil
+Requires-Dist: jinja2
+Dynamic: license-file
+
 # 🛡️ GuardCLI
 
 <p align="center">
@@ -65,17 +78,9 @@ Whether you're learning Linux security, performing personal system audits, or pr
 
 # 📷 Screenshots
 
-## 📷 Help Menu
-
-<p align="center">
-    <img src="screenshots/help.png" width="900">
-</p>
-
 ## Terminal Output
 
-<p align="center">
-    <img src="screenshots/full-audit.png" width="900">
-</p>
+> *(Add a screenshot here)*
 
 Example:
 
@@ -87,9 +92,7 @@ screenshots/terminal.png
 
 ## HTML Report
 
-<p align="center">
-    <img src="screenshots/report.png" width="900">
-</p>
+> *(Add a screenshot here)*
 
 Example:
 
@@ -104,13 +107,13 @@ screenshots/report.png
 Clone the repository
 
 ```bash
-git clone https://github.com/Rinshad0x/guardcli.git
+git clone https://github.com/YOUR_USERNAME/GuardCLI.git
 ```
 
 Move into the project directory
 
 ```bash
-cd guardcli
+cd GuardCLI
 ```
 
 Create a virtual environment
@@ -281,7 +284,7 @@ See the **LICENSE** file for more information.
 
 Cybersecurity Student | Python Developer | Linux Enthusiast
 
-GitHub: https://github.com/Rinshad0x
+GitHub: https://github.com/YOUR_USERNAME
 
 ---
 
