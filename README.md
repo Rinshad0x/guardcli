@@ -77,11 +77,7 @@ Whether you're learning Linux security, performing personal system audits, or pr
     <img src="screenshots/full-audit.png" width="900">
 </p>
 
-Example:
 
-```
-screenshots/terminal.png
-```
 
 ---
 
@@ -91,11 +87,7 @@ screenshots/terminal.png
     <img src="screenshots/report.png" width="900">
 </p>
 
-Example:
 
-```
-screenshots/report.png
-```
 
 ---
 
@@ -279,7 +271,7 @@ See the **LICENSE** file for more information.
 
 ## Rinshad0x
 
-Cybersecurity Student | Python Developer | Linux Enthusiast
+Cybersecurity Researcher | Python Developer | Linux Enthusiast
 
 GitHub: https://github.com/Rinshad0x
 
